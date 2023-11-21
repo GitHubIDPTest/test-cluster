@@ -10,24 +10,10 @@ resources:
 - certificates
 
 components:
-  - ../../components/argocd-skip-dryrun
+  - ../../components/test-certificate-issuer
+  - ../../components/tajcluster-oauth-github
 
 generatorOptions:
   disableNameSuffixHash: true
 
-configMapGenerator:
-- files:
-  - config.yaml=configmaps/cluster-monitoring-config.yaml
-  name: cluster-monitoring-config
-  namespace: openshift-monitoring
-
 patches:
-- path: ingresscontrollers/default_patch.yaml
-- path: oauths/cluster_patch.yaml
-- path: kubeletconfigs/system-reserved-patch.yaml
-- target:
-    kind: SecretStore
-  patch: |
-    - op: replace
-      path: /spec/provider/vault/auth/kubernetes/mountPath
-      value: kubernetes/nerc-ocp-prod
