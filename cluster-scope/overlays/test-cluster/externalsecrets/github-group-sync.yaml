@@ -1,0 +1,14 @@
+apiVersion: redhatcop.redhat.io/v1alpha1
+kind: GroupSync
+metadata:
+  name: github-githubidptest
+  namespace: group-sync-operator
+spec:
+  providers:
+  - name: github
+    github:
+      organization: GitHubIDPTest
+      prune: true
+      credentialsSecret:
+        name: group-sync-app-secret
+        namespace: group-sync-operator
