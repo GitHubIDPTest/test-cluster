@@ -7,6 +7,7 @@ resources:
 - ../common
 - ../../bundles/external-secrets-clustersecretstore
 - ../../../hostpath-provisioner/base
+- ../../../vault/base
 - externalsecrets
 - apiserver/cluster.yaml
 - certificates
