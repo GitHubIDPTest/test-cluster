@@ -9,6 +9,6 @@ spec:
   servingCerts:
     namedCertificates:
       - names:
-        - api.tajcluster.int.massopen.cloud
+        - UPDATE_IN_OVERLAY
         servingCertificate:
           name: default-api-certificate
