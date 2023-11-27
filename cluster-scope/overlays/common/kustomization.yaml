@@ -5,4 +5,4 @@ resources:
 - ../../bundles/cert-manager
 - ../../bundles/external-secrets
 - ../../bundles/group-sync-operator
-- ../../base/config.openshift.io/apiservers/cluster
+- ../../base/config.openshift.io/oauths/cluster
