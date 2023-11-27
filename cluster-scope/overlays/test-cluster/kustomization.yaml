@@ -6,7 +6,7 @@ commonLabels:
 resources:
 - ../common
 - ../../bundles/external-secrets-clustersecretstore
-- ../../bundles/kubevirt-hostpath-provisioner
+- ../../bundles/hostpath-provisioner
 - ../../../hostpath-provisioner/base
 - ../../../vault/base
 - externalsecrets
