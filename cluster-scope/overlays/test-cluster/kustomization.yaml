@@ -5,6 +5,7 @@ commonLabels:
 
 resources:
 - ../common
+- ../../bundles/external-secrets-clustersecretstore
 - externalsecrets
 - apiserver/cluster.yaml
 - certificates
