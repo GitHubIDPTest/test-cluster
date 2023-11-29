@@ -4,7 +4,7 @@ resources:
 - ../common
 - ../../bundles/external-secrets-clustersecretstore
 - ../../bundles/hostpath-provisioner
-  ../../bundles/vault
+- ../../bundles/vault
 - ../../../hostpath-provisioner/base
 - ../../../vault/base
 - externalsecrets
