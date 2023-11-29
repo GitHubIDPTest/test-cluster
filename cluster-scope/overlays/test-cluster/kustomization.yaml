@@ -9,7 +9,7 @@ resources:
 - ../../../vault/base
 - externalsecrets
 - certificates
-#- apiserver/cluster.yaml
+- apiserver/cluster.yaml
 
 components:
   - ../../components/test-certificate-issuer
