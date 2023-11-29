@@ -8,8 +8,8 @@ resources:
 - ../../../hostpath-provisioner/base
 - ../../../vault/base
 - externalsecrets
-- apiserver/cluster.yaml
 - certificates
+#- apiserver/cluster.yaml
 
 components:
   - ../../components/test-certificate-issuer
