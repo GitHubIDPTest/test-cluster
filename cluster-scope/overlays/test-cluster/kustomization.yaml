@@ -35,7 +35,7 @@ patches:
     - op: replace
       path: /spec/dataFrom/0/extract/key
       value: tajclustersecrets/aws
-  - target:
+- target:
     kind: ExternalSecret
     name: github-client-secret
   patch: |
