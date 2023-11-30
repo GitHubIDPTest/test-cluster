@@ -10,3 +10,6 @@ subjects:
   - kind: ServiceAccount
     name: eso-vault-auth
     namespace: external-secrets-operator
+  - kind: ServiceAccount
+    name: vault-secret-reader
+    namespace: external-secrets-operator
