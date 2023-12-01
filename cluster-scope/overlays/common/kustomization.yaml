@@ -6,3 +6,4 @@ resources:
 - ../../bundles/external-secrets
 - ../../bundles/group-sync-operator
 - ../../base/config.openshift.io/oauths/cluster
+- ../../base/operator.openshift.io/ingresscontrollers/default
