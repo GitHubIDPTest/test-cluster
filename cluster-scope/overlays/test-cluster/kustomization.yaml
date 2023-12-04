@@ -5,7 +5,6 @@ resources:
 - ../../bundles/external-secrets-clustersecretstore
 - ../../bundles/hostpath-provisioner
 - ../../bundles/vault
-- ../../base/core/serviceaccounts/vault-secret-reader
 - ../../../hostpath-provisioner/base
 - ../../../vault/base
 - externalsecrets
