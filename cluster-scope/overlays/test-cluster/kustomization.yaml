@@ -20,7 +20,7 @@ generatorOptions:
   disableNameSuffixHash: true
 
 patches:
-- path: ingresscontrollers/default_patch.yaml
+- path: ingresscontroller/default_patch.yaml
 - patch: |
     apiVersion: config.openshift.io/v1
     kind: OAuth
