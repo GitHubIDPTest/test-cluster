@@ -37,14 +37,14 @@ patches:
   patch: |
     - op: replace
       path: /spec/dataFrom/0/extract/key
-      value: tajclustersecrets/aws
+      value: tajcluster/data/test-cluster/aws-route53-credentials
 - target:
     kind: ExternalSecret
     name: github-client-secret
   patch: |
     - op: replace
       path: /spec/data/0/remoteRef/key
-      value: tajclustersecrets/github
+      value: tajcluster/data/test-cluster/openshift-config/oauth
 - target:
     kind: APIServer
     name: cluster
