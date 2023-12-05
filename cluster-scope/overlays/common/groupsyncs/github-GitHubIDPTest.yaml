@@ -10,5 +10,5 @@ spec:
       organization: GitHubIDPTest
       prune: true
       credentialsSecret:
-        name: group-sync-app-secret
+        name: github-group-sync
         namespace: group-sync-operator
